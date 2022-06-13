@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+php/bin/pear install Mail
+php/bin/pear install Net_SMTP
+
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
 # fail hard
